@@ -20,23 +20,9 @@ namespace arac_kiralama
 
             }
         }
-
-        private void buttonKayit1_Click(object sender, EventArgs e)
+        private void buttonKiralama7_Click(object sender, EventArgs e)
         {
-            if(müsteriKayitPanel.Visible==true)
-            {
-                müsteriKayitPanel.Visible = false;
-            }
-            else
-            {
-                müsteriKayitPanel.Visible = true;
-            }
-
-
-
 
         }
-
-
     }
 }

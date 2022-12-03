@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yonca\\Documents\\c # you tube\\arac kiralama\\arac kiralama\\arac kiralama.csproj": {}
+    "C:\\Users\\busek\\Source\\Repos\\Iskenderun-Technical-University\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama\\arac kiralama.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yonca\\Documents\\c # you tube\\arac kiralama\\arac kiralama\\arac kiralama.csproj": {
+    "C:\\Users\\busek\\Source\\Repos\\Iskenderun-Technical-University\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama\\arac kiralama.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yonca\\Documents\\c # you tube\\arac kiralama\\arac kiralama\\arac kiralama.csproj",
+        "projectUniqueName": "C:\\Users\\busek\\Source\\Repos\\Iskenderun-Technical-University\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama\\arac kiralama.csproj",
         "projectName": "arac kiralama",
-        "projectPath": "C:\\Users\\Yonca\\Documents\\c # you tube\\arac kiralama\\arac kiralama\\arac kiralama.csproj",
-        "packagesPath": "C:\\Users\\Yonca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yonca\\Documents\\c # you tube\\arac kiralama\\arac kiralama\\obj\\",
+        "projectPath": "C:\\Users\\busek\\Source\\Repos\\Iskenderun-Technical-University\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama\\arac kiralama.csproj",
+        "packagesPath": "C:\\Users\\busek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\busek\\Source\\Repos\\Iskenderun-Technical-University\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Yonca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\busek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +44,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
