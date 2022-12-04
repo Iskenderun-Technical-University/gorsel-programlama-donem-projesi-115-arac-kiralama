@@ -1,8 +1,8 @@
 namespace arac_kiralama
 {
-    public partial class Form1 : Form
+    public partial class AnaSayfa : Form
     {
-        public Form1()
+        public AnaSayfa()
         {
             InitializeComponent();
         }
@@ -20,9 +20,11 @@ namespace arac_kiralama
 
             }
         }
-        private void buttonKiralama7_Click(object sender, EventArgs e)
-        {
 
+        private void buttonKayit1_Click(object sender, EventArgs e)
+        {
+            frmMusterEkle ekle =new frmMusterEkle();
+            ekle.ShowDialog();
         }
     }
 }
