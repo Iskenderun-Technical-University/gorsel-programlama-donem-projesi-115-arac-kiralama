@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yonca\\Documents\\müşteri-listeleme1\\arac kiralama\\arac kiralama.csproj": {}
+    "C:\\Users\\Yonca\\Desktop\\Proje\\arac kiralama\\arac kiralama.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yonca\\Documents\\müşteri-listeleme1\\arac kiralama\\arac kiralama.csproj": {
+    "C:\\Users\\Yonca\\Desktop\\Proje\\arac kiralama\\arac kiralama.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yonca\\Documents\\müşteri-listeleme1\\arac kiralama\\arac kiralama.csproj",
+        "projectUniqueName": "C:\\Users\\Yonca\\Desktop\\Proje\\arac kiralama\\arac kiralama.csproj",
         "projectName": "arac kiralama",
-        "projectPath": "C:\\Users\\Yonca\\Documents\\müşteri-listeleme1\\arac kiralama\\arac kiralama.csproj",
+        "projectPath": "C:\\Users\\Yonca\\Desktop\\Proje\\arac kiralama\\arac kiralama.csproj",
         "packagesPath": "C:\\Users\\Yonca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yonca\\Documents\\müşteri-listeleme1\\arac kiralama\\obj\\",
+        "outputPath": "C:\\Users\\Yonca\\Desktop\\Proje\\arac kiralama\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yonca\\AppData\\Roaming\\NuGet\\NuGet.Config",

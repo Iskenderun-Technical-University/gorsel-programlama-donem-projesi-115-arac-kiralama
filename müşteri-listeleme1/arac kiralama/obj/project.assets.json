@@ -1524,11 +1524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\müşteri-listeleme1\\arac kiralama\\arac kiralama.csproj",
+      "projectUniqueName": "C:\\Users\\Yonca\\Desktop\\Proje\\müşteri-listeleme1\\arac kiralama\\arac kiralama.csproj",
       "projectName": "arac kiralama",
-      "projectPath": "D:\\müşteri-listeleme1\\arac kiralama\\arac kiralama.csproj",
+      "projectPath": "C:\\Users\\Yonca\\Desktop\\Proje\\müşteri-listeleme1\\arac kiralama\\arac kiralama.csproj",
       "packagesPath": "C:\\Users\\Yonca\\.nuget\\packages\\",
-      "outputPath": "D:\\müşteri-listeleme1\\arac kiralama\\obj\\",
+      "outputPath": "C:\\Users\\Yonca\\Desktop\\Proje\\müşteri-listeleme1\\arac kiralama\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yonca\\AppData\\Roaming\\NuGet\\NuGet.Config",
