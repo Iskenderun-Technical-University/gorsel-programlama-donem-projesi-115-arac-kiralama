@@ -1,0 +1,206 @@
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.exe
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.deps.json
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.runtimeconfig.json
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.AssemblyReference.cache
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.Form1.resources
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.Properties.Resources.resources
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.GenerateResource.cache
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfoInputs.cache
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfo.cs
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CoreCompileInputs.cache
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\refint\arac kiralama.dll
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.genruntimeconfig.cache
+C:\Users\Yonca\Documents\c # you tube\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\ref\arac kiralama.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.exe
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.deps.json
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.runtimeconfig.json
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.AssemblyReference.cache
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.Form1.resources
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.Properties.Resources.resources
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.GenerateResource.cache
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfoInputs.cache
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfo.cs
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CoreCompileInputs.cache
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\refint\arac kiralama.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.genruntimeconfig.cache
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\ref\arac kiralama.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.MusteriEkle.resources
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\busek\Source\Repos\Iskenderun-Technical-University\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CopyComplete
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.exe
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.deps.json
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.runtimeconfig.json
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.AssemblyReference.cache
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.Properties.Resources.resources
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.GenerateResource.cache
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfoInputs.cache
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfo.cs
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CoreCompileInputs.cache
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CopyComplete
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\refint\arac kiralama.dll
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.genruntimeconfig.cache
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\ref\arac kiralama.dll
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.AnaSayfa.resources
+C:\Users\Yonca\Desktop\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusterEkle.resources
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.exe
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.deps.json
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.runtimeconfig.json
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.dll
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.pdb
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.AssemblyReference.cache
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.AnaSayfa.resources
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusterEkle.resources
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.GenerateResource.cache
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.GeneratedMSBuildEditorConfig.editorconfig
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfoInputs.cache
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfo.cs
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CoreCompileInputs.cache
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CopyComplete
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.dll
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\refint\arac kiralama.dll
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.pdb
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.genruntimeconfig.cache
+D:\görsel programlama\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\arac kiralama\obj\Debug\net6.0-windows\ref\arac kiralama.dll
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.exe
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.deps.json
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.runtimeconfig.json
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.dll
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.pdb
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.AssemblyReference.cache
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.AnaSayfa.resources
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusterEkle.resources
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusteriListele.resources
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.GenerateResource.cache
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.GeneratedMSBuildEditorConfig.editorconfig
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfoInputs.cache
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfo.cs
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CoreCompileInputs.cache
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CopyComplete
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.dll
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\refint\arac kiralama.dll
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.pdb
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.genruntimeconfig.cache
+D:\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\ref\arac kiralama.dll
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.AssemblyReference.cache
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.AnaSayfa.resources
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmAracKayit.resources
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusterEkle.resources
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusteriListele.resources
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.GenerateResource.cache
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfoInputs.cache
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfo.cs
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CoreCompileInputs.cache
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\refint\arac kiralama.dll
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.exe
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.deps.json
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.runtimeconfig.json
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CopyComplete
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.genruntimeconfig.cache
+C:\Users\Yonca\Documents\müşteri-listeleme1\arac kiralama\obj\Debug\net6.0-windows\ref\arac kiralama.dll
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.exe
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\frmMusteriListele.cs
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.deps.json
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.runtimeconfig.json
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yonca\Desktop\arac kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.AssemblyReference.cache
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.AracListele.resources
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.AnaSayfa.resources
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmAracKayit.resources
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusterEkle.resources
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusteriListele.resources
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.GenerateResource.cache
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfoInputs.cache
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfo.cs
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CoreCompileInputs.cache
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CopyComplete
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\refint\arac kiralama.dll
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.genruntimeconfig.cache
+C:\Users\Yonca\Desktop\arac kiralama\obj\Debug\net6.0-windows\ref\arac kiralama.dll
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.exe
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\frmMusteriListele.cs
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.deps.json
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.runtimeconfig.json
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.AssemblyReference.cache
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.AracListele.resources
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.AnaSayfa.resources
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmAracKayit.resources
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusterEkle.resources
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusteriListele.resources
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.GenerateResource.cache
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfoInputs.cache
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfo.cs
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CoreCompileInputs.cache
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CopyComplete
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.dll
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\refint\arac kiralama.dll
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.pdb
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.genruntimeconfig.cache
+C:\Users\Yonca\Desktop\Yonca bak busenin projesi burada\arac kiralama\obj\Debug\net6.0-windows\ref\arac kiralama.dll
