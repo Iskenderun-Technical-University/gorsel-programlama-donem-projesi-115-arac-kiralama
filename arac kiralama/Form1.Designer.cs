@@ -40,7 +40,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.buttonKayit1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -89,6 +88,7 @@
             this.buttonAracListe3.Text = "Araç Listeleme";
             this.buttonAracListe3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonAracListe3.UseVisualStyleBackColor = false;
+            this.buttonAracListe3.Click += new System.EventHandler(this.buttonAracListe3_Click);
             // 
             // buttonCikis4
             // 
@@ -138,6 +138,7 @@
             this.buttonSozlesme6.Text = "Sözleşme";
             this.buttonSozlesme6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonSozlesme6.UseVisualStyleBackColor = false;
+            this.buttonSozlesme6.Click += new System.EventHandler(this.buttonSozlesme6_Click);
             // 
             // buttonKiralama7
             // 
@@ -198,27 +199,19 @@
             this.buttonKayit1.UseVisualStyleBackColor = false;
             this.buttonKayit1.Click += new System.EventHandler(this.buttonKayit1_Click);
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(346, 154);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 28);
-            this.comboBox1.TabIndex = 9;
-            // 
             // AnaSayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(773, 508);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AnaSayfa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ana Sayfa";
+            this.Load += new System.EventHandler(this.AnaSayfa_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -236,6 +229,5 @@
         private Panel panel1;
         private ImageList ımageList1;
         private Button buttonKayit1;
-        private ComboBox comboBox1;
     }
 }

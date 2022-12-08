@@ -265,7 +265,7 @@
             this.AccessibleName = " ";
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Crimson;
+            this.BackColor = System.Drawing.SystemColors.GrayText;
             this.ClientSize = new System.Drawing.Size(846, 455);
             this.Controls.Add(this.btnSil);
             this.Controls.Add(this.buttonIptal);

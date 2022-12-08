@@ -39,5 +39,21 @@ namespace arac_kiralama
             frmAracKayit kayit = new frmAracKayit();
             kayit.ShowDialog();
         }
+
+        private void AnaSayfa_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAracListe3_Click(object sender, EventArgs e)
+        {
+            AracListele listele2 = new AracListele();
+            listele2.ShowDialog();
+        }
+
+        private void buttonSozlesme6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
