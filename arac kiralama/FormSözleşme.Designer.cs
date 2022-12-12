@@ -369,6 +369,7 @@
             // 
             // groupBoxAracBilgi
             // 
+            this.groupBoxAracBilgi.Controls.Add(this.comboBox1);
             this.groupBoxAracBilgi.Controls.Add(this.textBoxTutar);
             this.groupBoxAracBilgi.Controls.Add(this.labelTutar);
             this.groupBoxAracBilgi.Controls.Add(this.comboBoxAraclar);
@@ -550,7 +551,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(359, 24);
+            this.comboBox1.Location = new System.Drawing.Point(39, 0);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 23);
             this.comboBox1.TabIndex = 36;
@@ -561,7 +562,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(948, 540);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxEkstra);
             this.Controls.Add(this.buttonAracEkle);
