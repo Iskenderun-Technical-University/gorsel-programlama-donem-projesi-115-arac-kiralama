@@ -75,6 +75,7 @@
             this.buttonAracEkle = new System.Windows.Forms.Button();
             this.textBoxEkstra = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBoxAracBilgi.SuspendLayout();
             this.SuspendLayout();
@@ -546,12 +547,21 @@
             this.label1.TabIndex = 35;
             this.label1.Text = "Alacak/Verecek Durumu :";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(359, 24);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 23);
+            this.comboBox1.TabIndex = 36;
+            // 
             // FormSözleşme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(948, 540);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxEkstra);
             this.Controls.Add(this.buttonAracEkle);
@@ -628,5 +638,6 @@
         private Label labelTutar;
         private TextBox textBoxEkstra;
         private Label label1;
+        private ComboBox comboBox1;
     }
 }
