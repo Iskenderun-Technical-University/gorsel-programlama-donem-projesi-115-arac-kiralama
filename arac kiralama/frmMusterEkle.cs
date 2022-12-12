@@ -48,5 +48,10 @@ namespace arac_kiralama
             arac_kiralama.ekle_sil_güncelle(komut2,cumle);
             foreach (Control item in Controls) if (item is TextBox) item.Text = "";
         }
+
+        private void frmMusterEkle_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

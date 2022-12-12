@@ -145,9 +145,5 @@ namespace arac_kiralama
 
         }
 
-        private void frmAracKayit_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

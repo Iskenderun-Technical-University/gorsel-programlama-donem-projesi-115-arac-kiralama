@@ -233,3 +233,35 @@ C:\Users\Yonca\Desktop\Proje\arac kiralama\obj\Debug\net6.0-windows\refint\arac 
 C:\Users\Yonca\Desktop\Proje\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.pdb
 C:\Users\Yonca\Desktop\Proje\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.genruntimeconfig.cache
 C:\Users\Yonca\Desktop\Proje\arac kiralama\obj\Debug\net6.0-windows\ref\arac kiralama.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.exe
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\frmMusteriListele.cs
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.deps.json
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.runtimeconfig.json
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\arac kiralama.pdb
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.AracListele.resources
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.AnaSayfa.resources
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmAracKayit.resources
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusterEkle.resources
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.frmMusteriListele.resources
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.AssemblyInfo.cs
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.csproj.CopyComplete
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\refint\arac kiralama.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.pdb
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac kiralama.genruntimeconfig.cache
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\ref\arac kiralama.dll
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.FormSözleşme.resources
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.Properties.Resources.resources
+\\Mac\Home\Desktop\ARAÇkİRALAMAYENİİİ\arac kiralama\obj\Debug\net6.0-windows\arac_kiralama.FormKiralama.resources

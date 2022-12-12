@@ -53,7 +53,14 @@ namespace arac_kiralama
 
         private void buttonSozlesme6_Click(object sender, EventArgs e)
         {
+            FormSözle?me sözle?me = new FormSözle?me();
+            sözle?me.ShowDialog();
+        }
 
+        private void buttonKiralama7_Click(object sender, EventArgs e)
+        {
+            FormKiralama kiralama = new FormKiralama();
+            kiralama.ShowDialog();
         }
     }
 }

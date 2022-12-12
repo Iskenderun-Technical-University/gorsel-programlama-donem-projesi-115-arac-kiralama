@@ -257,6 +257,7 @@
             this.Name = "frmMusterEkle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMusterEkle";
+            this.Load += new System.EventHandler(this.frmMusterEkle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

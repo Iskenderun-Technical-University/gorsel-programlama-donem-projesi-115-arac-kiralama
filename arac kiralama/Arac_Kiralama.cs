@@ -29,5 +29,58 @@ namespace arac_kiralama
             baglanti.Close();
             return tablo;
         }
+
+        public void Tc_Ara(TextBox TcAra,TextBox Tc, TextBox Ad, TextBox Soyad, TextBox Telefon, string sorgu)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand(sorgu, baglanti);
+            SqlDataReader read = komut.ExecuteReader();
+            while (read.Read())
+            {
+                Tc.Text = read["Tc"].ToString();
+                Ad.Text = read["Ad"].ToString();
+                Soyad.Text = read["Soyad"].ToString();
+                Telefon.Text = read["Telefon"].ToString();
+            }
+            baglanti.Close();
+        }
+        public void Ucret_Hesapla(ComboBox comboKiraSekli, TextBox ucret, string sorgu)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand(sorgu, baglanti);
+            SqlDataReader read = komut.ExecuteReader();
+            while (read.Read())
+            {
+                if (comboKiraSekli.SelectedIndex == 0) ucret.Text = (int.Parse(read["KiraUcret"].ToString()) * 1).ToString();
+                if (comboKiraSekli.SelectedIndex == 1) ucret.Text = (int.Parse(read["KiraUcret"].ToString()) * 0.80).ToString();
+                if (comboKiraSekli.SelectedIndex == 2) ucret.Text = (int.Parse(read["KiraUcret"].ToString()) * 0.70).ToString();
+
+            }
+            baglanti.Close();
+        }
+
+        public void CombodanGetir(ComboBox Araçlar, TextBox Plaka, TextBox Marka, TextBox Model, TextBox Renk, string sorgu)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand(sorgu, baglanti);
+            SqlDataReader read = komut.ExecuteReader();
+            while (read.Read())
+            {
+                Plaka.Text = read["Plaka"].ToString();
+                Marka.Text = read["Marka"].ToString();
+                Model.Text = read["Model"].ToString();
+                Renk.Text = read["Renk"].ToString();
+
+            }
+            baglanti.Close();
+        }
+
+        public void kiralamahesapla(Label lbl)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("select sum(tutar) from YOKiralama",baglanti);
+            lbl.Text = "Toplam Tutar=" + komut.ExecuteScalar()+" TL ";
+            baglanti.Close();
+        }
     }
 }
