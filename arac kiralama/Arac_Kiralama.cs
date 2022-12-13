@@ -40,7 +40,7 @@ namespace arac_kiralama
                 Tc.Text = read["Tc"].ToString();
                 Ad.Text = read["Ad"].ToString();
                 Soyad.Text = read["Soyad"].ToString();
-                Telefon.Text = read["Telefon"].ToString();
+                Telefon.Text = read["Tel"].ToString();
             }
             baglanti.Close();
         }

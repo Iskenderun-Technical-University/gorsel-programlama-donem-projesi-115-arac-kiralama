@@ -26,9 +26,18 @@ namespace arac_kiralama
 
         private void Yenile()
         {
-            string sorgu3 = "select *from YSozlesme";
+            string sorgu3 = "select * from YSozlesme";
             SqlDataAdapter adtr2 = new SqlDataAdapter();
             dataGridView1.DataSource = arac.listele(adtr2, sorgu3);
+
+
+            //comboBoxAraclar.DisplayMember = "Name";
+            //comboBoxAraclar.ValueMember = "Name";
+            //string sorgu4 = "select Plaka from YKiralama";
+            //SqlDataAdapter adtr3 = new SqlDataAdapter();
+            //comboBoxAraclar.DataSource = arac.listele(adtr3, sorgu4);
+
+
         }
 
         private void textBoxTc_TextChanged(object sender, EventArgs e)
@@ -63,8 +72,11 @@ namespace arac_kiralama
 
         private void Temizle()
         {
-            dateCikisTarihi = DateTime.Now.ToShortDateString();
-            dateDonusTarihi = DateTime.Now.ToShortDateString();
+
+            this.dateCikisTarihi.Value = DateTime.Now;
+            this.dateDonusTarihi.Value = DateTime.Now;
+
+
             comboBoxKiraSekli.Text = "";
             textBoxKiraUcreti.Text = "";
             textBoxGun.Text = "";
@@ -94,8 +106,8 @@ namespace arac_kiralama
             arac.ekle_sil_güncelle(komut2, sorgu2);
             comboBoxAraclar.Items.Clear();
             Yenile();
-            foreach (Control item in groupBoxMusteriBilgi.Controls) if (item is TextBox) item.Text = "";
-            foreach (Control item in groupBoxAracBilgi.Controls) if (item is TextBox) item.Text = "";
+           // foreach (Control item in groupBoxMusteriBilgi.Controls) if (item == GetType(TextBox)) item.Text = "";
+           // foreach (Control item in groupBoxAracBilgi.Controls) if (item is TextBox) item.Text = "";
             comboBoxAraclar.Text = "";
             Temizle();
             MessageBox.Show("Sozlesme eklendi");
@@ -104,8 +116,10 @@ namespace arac_kiralama
 
         private void textBoxTcAra_TextChanged(object sender, EventArgs e)
         {
-            if (textBoxTcAra.Text == "") foreach (Control item in groupBoxMusteriBilgi.Controls) if (item is TextBox) item.Text = "";
-            string sorgu2 = "select *from YMuster where Tc like '" + textBoxTcAra.Text + "'";
+           foreach (Control item in groupBoxAracBilgi.Controls) if (item.GetType() == typeof(System.Windows.Forms.TextBox)) item.Text = "";
+
+
+            string sorgu2 = "select * from YMuster where Tc like '" + textBoxTcAra.Text + "'";
             arac.Tc_Ara(textBoxTcAra,textBoxTc, textBoxAd, textBoxSoyad, textBoxTelefon, sorgu2);
         }
 
@@ -131,8 +145,8 @@ namespace arac_kiralama
             arac.ekle_sil_güncelle(komut2, sorgu2);
             comboBoxAraclar.Items.Clear();
             Yenile();
-            foreach (Control item in groupBoxMusteriBilgi.Controls) if (item is TextBox) item.Text = "";
-            foreach (Control item in groupBoxAracBilgi.Controls) if (item is TextBox) item.Text = "";
+            foreach (Control item in groupBoxMusteriBilgi.Controls) if (item.GetType() == typeof(System.Windows.Forms.TextBox)) item.Text = "";
+            foreach (Control item in groupBoxAracBilgi.Controls) if (item.GetType() == typeof(System.Windows.Forms.TextBox)) item.Text = "";
             comboBoxAraclar.Text = "";
             Temizle();
             MessageBox.Show("Sozlesme guncellendi");
@@ -216,8 +230,8 @@ namespace arac_kiralama
                 comboBoxAraclar.Text = "";
                 comboBoxAraclar.Items.Clear();
                 Yenile();
-                foreach (Control item in groupBoxMusteriBilgi.Controls) if (item is TextBox) item.Text = "";
-                foreach (Control item in groupBoxAracBilgi.Controls) if (item is TextBox) item.Text = "";
+                foreach (Control item in groupBoxMusteriBilgi.Controls) if (item.GetType() == typeof(System.Windows.Forms.TextBox)) item.Text = "";
+                foreach (Control item in groupBoxAracBilgi.Controls) if (item.GetType() == typeof(System.Windows.Forms.TextBox)) item.Text = "";
                 comboBoxAraclar.Text = "";
                 Temizle();
                 textBoxEkstra.Text = "";
