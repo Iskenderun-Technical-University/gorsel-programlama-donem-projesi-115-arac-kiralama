@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AracListele));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.buttonResim = new System.Windows.Forms.Button();
             this.buttonIptal = new System.Windows.Forms.Button();
@@ -49,6 +51,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -69,10 +72,12 @@
             // 
             this.buttonResim.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonResim.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonResim.Location = new System.Drawing.Point(534, 174);
+            this.buttonResim.ImageIndex = 1;
+            this.buttonResim.ImageList = this.ımageList1;
+            this.buttonResim.Location = new System.Drawing.Point(531, 174);
             this.buttonResim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonResim.Name = "buttonResim";
-            this.buttonResim.Size = new System.Drawing.Size(38, 26);
+            this.buttonResim.Size = new System.Drawing.Size(61, 36);
             this.buttonResim.TabIndex = 37;
             this.buttonResim.Text = "Sil";
             this.buttonResim.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -83,13 +88,15 @@
             // 
             this.buttonIptal.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.buttonIptal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonIptal.ImageIndex = 5;
-            this.buttonIptal.Location = new System.Drawing.Point(434, 174);
+            this.buttonIptal.ImageIndex = 2;
+            this.buttonIptal.ImageList = this.ımageList1;
+            this.buttonIptal.Location = new System.Drawing.Point(421, 174);
             this.buttonIptal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonIptal.Name = "buttonIptal";
-            this.buttonIptal.Size = new System.Drawing.Size(81, 26);
+            this.buttonIptal.Size = new System.Drawing.Size(87, 36);
             this.buttonIptal.TabIndex = 36;
             this.buttonIptal.Text = "İptal";
+            this.buttonIptal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonIptal.UseVisualStyleBackColor = true;
             // 
             // labelModel
@@ -253,11 +260,12 @@
             // 
             this.buttonKayit.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonKayit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonKayit.ImageIndex = 4;
-            this.buttonKayit.Location = new System.Drawing.Point(339, 174);
+            this.buttonKayit.ImageIndex = 0;
+            this.buttonKayit.ImageList = this.ımageList1;
+            this.buttonKayit.Location = new System.Drawing.Point(295, 173);
             this.buttonKayit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonKayit.Name = "buttonKayit";
-            this.buttonKayit.Size = new System.Drawing.Size(87, 26);
+            this.buttonKayit.Size = new System.Drawing.Size(110, 37);
             this.buttonKayit.TabIndex = 19;
             this.buttonKayit.Text = "Güncelle";
             this.buttonKayit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -277,17 +285,32 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(660, 176);
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.ImageIndex = 4;
+            this.button1.ImageList = this.ımageList1;
+            this.button1.Location = new System.Drawing.Point(657, 176);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 24);
+            this.button1.Size = new System.Drawing.Size(103, 34);
             this.button1.TabIndex = 38;
             this.button1.Text = "Resim Değiştir";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // ımageList1
+            // 
+            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
+            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.ımageList1.Images.SetKeyName(0, "refresh (1).png");
+            this.ımageList1.Images.SetKeyName(1, "bin.png");
+            this.ımageList1.Images.SetKeyName(2, "cancel.png");
+            this.ımageList1.Images.SetKeyName(3, "gallery.png");
+            this.ımageList1.Images.SetKeyName(4, "image.png");
             // 
             // AracListele
             // 
@@ -349,5 +372,6 @@
         private PictureBox pictureBox2;
         private Button button1;
         private OpenFileDialog openFileDialog1;
+        private ImageList ımageList1;
     }
 }

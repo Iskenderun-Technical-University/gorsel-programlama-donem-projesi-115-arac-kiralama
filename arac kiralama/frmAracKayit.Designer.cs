@@ -58,9 +58,9 @@
             // 
             this.buttonKayit.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonKayit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonKayit.ImageIndex = 4;
+            this.buttonKayit.ImageIndex = 8;
             this.buttonKayit.ImageList = this.ımageList1;
-            this.buttonKayit.Location = new System.Drawing.Point(44, 357);
+            this.buttonKayit.Location = new System.Drawing.Point(44, 335);
             this.buttonKayit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonKayit.Name = "buttonKayit";
             this.buttonKayit.Size = new System.Drawing.Size(102, 51);
@@ -81,11 +81,20 @@
             this.ımageList1.Images.SetKeyName(3, "update.png");
             this.ımageList1.Images.SetKeyName(4, "car.png");
             this.ımageList1.Images.SetKeyName(5, "trash.png");
+            this.ımageList1.Images.SetKeyName(6, "gallery.png");
+            this.ımageList1.Images.SetKeyName(7, "clipboard.png");
+            this.ımageList1.Images.SetKeyName(8, "verify.png");
+            this.ımageList1.Images.SetKeyName(9, "user.png");
+            this.ımageList1.Images.SetKeyName(10, "image.png");
+            this.ımageList1.Images.SetKeyName(11, "refresh (1).png");
+            this.ımageList1.Images.SetKeyName(12, "bin.png");
+            this.ımageList1.Images.SetKeyName(13, "cancel.png");
+            this.ımageList1.Images.SetKeyName(14, "gallery.png");
             // 
             // textBoxPlaka
             // 
             this.textBoxPlaka.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxPlaka.Location = new System.Drawing.Point(163, 73);
+            this.textBoxPlaka.Location = new System.Drawing.Point(147, 73);
             this.textBoxPlaka.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxPlaka.Name = "textBoxPlaka";
             this.textBoxPlaka.Size = new System.Drawing.Size(173, 26);
@@ -94,7 +103,7 @@
             // textBoxRenk
             // 
             this.textBoxRenk.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxRenk.Location = new System.Drawing.Point(163, 172);
+            this.textBoxRenk.Location = new System.Drawing.Point(147, 172);
             this.textBoxRenk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxRenk.Name = "textBoxRenk";
             this.textBoxRenk.Size = new System.Drawing.Size(173, 26);
@@ -103,7 +112,7 @@
             // textBoxKiralamaUcret
             // 
             this.textBoxKiralamaUcret.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxKiralamaUcret.Location = new System.Drawing.Point(163, 270);
+            this.textBoxKiralamaUcret.Location = new System.Drawing.Point(147, 270);
             this.textBoxKiralamaUcret.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxKiralamaUcret.Name = "textBoxKiralamaUcret";
             this.textBoxKiralamaUcret.Size = new System.Drawing.Size(173, 26);
@@ -112,7 +121,7 @@
             // textBoxKm
             // 
             this.textBoxKm.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxKm.Location = new System.Drawing.Point(163, 204);
+            this.textBoxKm.Location = new System.Drawing.Point(147, 204);
             this.textBoxKm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxKm.Name = "textBoxKm";
             this.textBoxKm.Size = new System.Drawing.Size(173, 26);
@@ -135,7 +144,7 @@
             "Alfa Romeo",
             "Ford",
             "Jeep"});
-            this.comboBoxMarka.Location = new System.Drawing.Point(163, 105);
+            this.comboBoxMarka.Location = new System.Drawing.Point(147, 105);
             this.comboBoxMarka.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxMarka.Name = "comboBoxMarka";
             this.comboBoxMarka.Size = new System.Drawing.Size(173, 27);
@@ -151,7 +160,7 @@
             "Benzin",
             "Benzin+Lpg",
             "Lityum batarya"});
-            this.comboBoxYakit.Location = new System.Drawing.Point(163, 238);
+            this.comboBoxYakit.Location = new System.Drawing.Point(147, 238);
             this.comboBoxYakit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxYakit.Name = "comboBoxYakit";
             this.comboBoxYakit.Size = new System.Drawing.Size(173, 27);
@@ -161,7 +170,7 @@
             // 
             this.comboBoxModel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBoxModel.FormattingEnabled = true;
-            this.comboBoxModel.Location = new System.Drawing.Point(163, 138);
+            this.comboBoxModel.Location = new System.Drawing.Point(147, 138);
             this.comboBoxModel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxModel.Name = "comboBoxModel";
             this.comboBoxModel.Size = new System.Drawing.Size(173, 27);
@@ -171,7 +180,7 @@
             // 
             this.labelPlaka.AutoSize = true;
             this.labelPlaka.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelPlaka.Location = new System.Drawing.Point(28, 76);
+            this.labelPlaka.Location = new System.Drawing.Point(76, 76);
             this.labelPlaka.Name = "labelPlaka";
             this.labelPlaka.Size = new System.Drawing.Size(54, 20);
             this.labelPlaka.TabIndex = 7;
@@ -181,7 +190,7 @@
             // 
             this.labelMara.AutoSize = true;
             this.labelMara.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMara.Location = new System.Drawing.Point(28, 110);
+            this.labelMara.Location = new System.Drawing.Point(69, 110);
             this.labelMara.Name = "labelMara";
             this.labelMara.Size = new System.Drawing.Size(61, 20);
             this.labelMara.TabIndex = 7;
@@ -191,7 +200,7 @@
             // 
             this.labelKiralamaUc.AutoSize = true;
             this.labelKiralamaUc.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelKiralamaUc.Location = new System.Drawing.Point(28, 274);
+            this.labelKiralamaUc.Location = new System.Drawing.Point(12, 274);
             this.labelKiralamaUc.Name = "labelKiralamaUc";
             this.labelKiralamaUc.Size = new System.Drawing.Size(118, 20);
             this.labelKiralamaUc.TabIndex = 8;
@@ -201,7 +210,7 @@
             // 
             this.labelRenk.AutoSize = true;
             this.labelRenk.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelRenk.Location = new System.Drawing.Point(28, 208);
+            this.labelRenk.Location = new System.Drawing.Point(79, 208);
             this.labelRenk.Name = "labelRenk";
             this.labelRenk.Size = new System.Drawing.Size(51, 20);
             this.labelRenk.TabIndex = 10;
@@ -211,7 +220,7 @@
             // 
             this.labelYakit.AutoSize = true;
             this.labelYakit.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelYakit.Location = new System.Drawing.Point(28, 242);
+            this.labelYakit.Location = new System.Drawing.Point(80, 242);
             this.labelYakit.Name = "labelYakit";
             this.labelYakit.Size = new System.Drawing.Size(50, 20);
             this.labelYakit.TabIndex = 11;
@@ -221,7 +230,7 @@
             // 
             this.labelKm.AutoSize = true;
             this.labelKm.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelKm.Location = new System.Drawing.Point(28, 176);
+            this.labelKm.Location = new System.Drawing.Point(47, 176);
             this.labelKm.Name = "labelKm";
             this.labelKm.Size = new System.Drawing.Size(83, 20);
             this.labelKm.TabIndex = 13;
@@ -231,7 +240,7 @@
             // 
             this.labelModel.AutoSize = true;
             this.labelModel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelModel.Location = new System.Drawing.Point(28, 142);
+            this.labelModel.Location = new System.Drawing.Point(69, 142);
             this.labelModel.Name = "labelModel";
             this.labelModel.Size = new System.Drawing.Size(61, 20);
             this.labelModel.TabIndex = 14;
@@ -260,9 +269,9 @@
             // 
             this.buttonIptal.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.buttonIptal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonIptal.ImageIndex = 5;
+            this.buttonIptal.ImageIndex = 1;
             this.buttonIptal.ImageList = this.ımageList1;
-            this.buttonIptal.Location = new System.Drawing.Point(193, 357);
+            this.buttonIptal.Location = new System.Drawing.Point(184, 335);
             this.buttonIptal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonIptal.Name = "buttonIptal";
             this.buttonIptal.Size = new System.Drawing.Size(102, 51);
@@ -276,6 +285,7 @@
             // 
             this.buttonResim.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonResim.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonResim.ImageIndex = 10;
             this.buttonResim.ImageList = this.ımageList1;
             this.buttonResim.Location = new System.Drawing.Point(370, 257);
             this.buttonResim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -296,7 +306,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(570, 465);
+            this.ClientSize = new System.Drawing.Size(570, 409);
             this.Controls.Add(this.buttonResim);
             this.Controls.Add(this.buttonIptal);
             this.Controls.Add(this.pictureBox1);
@@ -321,6 +331,7 @@
             this.Name = "frmAracKayit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Arac Kayit";
+            this.Load += new System.EventHandler(this.frmAracKayit_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

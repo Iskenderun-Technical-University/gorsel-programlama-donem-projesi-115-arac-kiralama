@@ -109,5 +109,10 @@ namespace arac_kiralama
             //bu üstteki satır isteğe bağlı biraz istersen silebilirsin
             Yenilelistele();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

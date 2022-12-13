@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMusteriListele));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.buttonIptal = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -49,6 +51,7 @@
             this.btnSil = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,10 +71,11 @@
             // 
             this.buttonIptal.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.buttonIptal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonIptal.ImageIndex = 0;
-            this.buttonIptal.Location = new System.Drawing.Point(168, 344);
+            this.buttonIptal.ImageIndex = 2;
+            this.buttonIptal.ImageList = this.ımageList1;
+            this.buttonIptal.Location = new System.Drawing.Point(163, 344);
             this.buttonIptal.Name = "buttonIptal";
-            this.buttonIptal.Size = new System.Drawing.Size(114, 62);
+            this.buttonIptal.Size = new System.Drawing.Size(100, 43);
             this.buttonIptal.TabIndex = 35;
             this.buttonIptal.Text = "Iptal";
             this.buttonIptal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -83,11 +87,12 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(49, 219);
+            this.label6.Location = new System.Drawing.Point(41, 219);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 20);
+            this.label6.Size = new System.Drawing.Size(98, 20);
             this.label6.TabIndex = 33;
-            this.label6.Text = "Tel : ";
+            this.label6.Text = "Telefon No : ";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBoxTel
             // 
@@ -101,7 +106,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(49, 182);
+            this.label4.Location = new System.Drawing.Point(77, 182);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 20);
             this.label4.TabIndex = 31;
@@ -118,7 +123,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(49, 108);
+            this.label5.Location = new System.Drawing.Point(27, 108);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(108, 20);
             this.label5.TabIndex = 29;
@@ -135,7 +140,7 @@
             // 
             this.labelSoyad.AutoSize = true;
             this.labelSoyad.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelSoyad.Location = new System.Drawing.Point(49, 71);
+            this.labelSoyad.Location = new System.Drawing.Point(76, 71);
             this.labelSoyad.Name = "labelSoyad";
             this.labelSoyad.Size = new System.Drawing.Size(59, 20);
             this.labelSoyad.TabIndex = 27;
@@ -152,7 +157,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(49, 145);
+            this.label3.Location = new System.Drawing.Point(72, 145);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 20);
             this.label3.TabIndex = 25;
@@ -171,11 +176,11 @@
             this.labelmail.AutoSize = true;
             this.labelmail.BackColor = System.Drawing.Color.Transparent;
             this.labelmail.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelmail.Location = new System.Drawing.Point(49, 256);
+            this.labelmail.Location = new System.Drawing.Point(65, 256);
             this.labelmail.Name = "labelmail";
             this.labelmail.Size = new System.Drawing.Size(70, 20);
             this.labelmail.TabIndex = 23;
-            this.labelmail.Text = "e-posta :";
+            this.labelmail.Text = "E-posta :";
             // 
             // textBoxMail
             // 
@@ -188,7 +193,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(49, 34);
+            this.label1.Location = new System.Drawing.Point(94, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 20);
             this.label1.TabIndex = 21;
@@ -206,10 +211,11 @@
             // 
             this.btnGuncelle.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.btnGuncelle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuncelle.ImageIndex = 1;
-            this.btnGuncelle.Location = new System.Drawing.Point(26, 344);
+            this.btnGuncelle.ImageIndex = 0;
+            this.btnGuncelle.ImageList = this.ımageList1;
+            this.btnGuncelle.Location = new System.Drawing.Point(41, 344);
             this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(131, 62);
+            this.btnGuncelle.Size = new System.Drawing.Size(112, 43);
             this.btnGuncelle.TabIndex = 19;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -230,10 +236,11 @@
             // 
             this.btnSil.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.btnSil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSil.ImageIndex = 0;
-            this.btnSil.Location = new System.Drawing.Point(288, 344);
+            this.btnSil.ImageIndex = 1;
+            this.btnSil.ImageList = this.ımageList1;
+            this.btnSil.Location = new System.Drawing.Point(269, 344);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(111, 62);
+            this.btnSil.Size = new System.Drawing.Size(102, 43);
             this.btnSil.TabIndex = 35;
             this.btnSil.Text = "Sil";
             this.btnSil.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -259,6 +266,16 @@
             this.label2.Text = " TC Ara";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // ımageList1
+            // 
+            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth24Bit;
+            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.ımageList1.Images.SetKeyName(0, "refresh (1).png");
+            this.ımageList1.Images.SetKeyName(1, "bin.png");
+            this.ımageList1.Images.SetKeyName(2, "cancel.png");
+            this.ımageList1.Images.SetKeyName(3, "gallery.png");
             // 
             // frmMusteriListele
             // 
@@ -322,5 +339,6 @@
         private Button btnSil;
         private TextBox textBox1;
         private Label label2;
+        private ImageList ımageList1;
     }
 }
