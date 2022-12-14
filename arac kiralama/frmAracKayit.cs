@@ -18,7 +18,7 @@ namespace arac_kiralama
         {
             InitializeComponent();
         }
-
+        //bilgisayardaki resmi eklemek istediğimiz dosyayı seçip açıp eklemek istediğimiz resmi seçip ekliyoruz
         private void buttonResim_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
@@ -123,7 +123,7 @@ namespace arac_kiralama
             }
 
         }
-
+        //textboxtaki verileri alıp sql veritabanına aktarıyoruz 
         private void buttonKayit_Click(object sender, EventArgs e)
         {
             string cumle = "insert into YKiralama(Plaka,Marka,Model,KM,Renk,Yakit,KiraUcreti,Resim) values(@Plaka,@Marka,@Model,@KM,@Renk,@Yakit,@KiraUcreti,@Resim)";

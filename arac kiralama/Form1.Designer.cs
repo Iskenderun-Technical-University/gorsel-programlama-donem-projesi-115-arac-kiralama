@@ -63,7 +63,7 @@
             // 
             // ımageList1
             // 
-            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
             this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
             this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
             this.ımageList1.Images.SetKeyName(0, "list.png");
@@ -74,6 +74,7 @@
             this.ımageList1.Images.SetKeyName(5, "car (1).png");
             this.ımageList1.Images.SetKeyName(6, "agreement.png");
             this.ımageList1.Images.SetKeyName(7, "seller.png");
+            this.ımageList1.Images.SetKeyName(8, "anasayfaBackground.jpg");
             // 
             // buttonAracListe3
             // 

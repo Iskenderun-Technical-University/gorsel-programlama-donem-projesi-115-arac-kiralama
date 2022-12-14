@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\busek\\Source\\Repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj": {}
+    "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj": {}
   },
   "projects": {
-    "C:\\Users\\busek\\Source\\Repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj": {
+    "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\busek\\Source\\Repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj",
+        "projectUniqueName": "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj",
         "projectName": "arac kiralama",
-        "projectPath": "C:\\Users\\busek\\Source\\Repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj",
+        "projectPath": "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj",
         "packagesPath": "C:\\Users\\busek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\busek\\Source\\Repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\obj\\",
+        "outputPath": "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
