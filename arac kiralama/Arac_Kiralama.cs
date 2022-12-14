@@ -10,8 +10,10 @@ namespace arac_kiralama
 {
     internal class Arac_Kiralama
     {
+        //ilk olarak sql bağlantımızı kuruyoruz
         SqlConnection baglanti = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=YOaracKiralama;Integrated Security=True");
         DataTable tablo;
+        //sql bağlantı sorgusu ekle sil ve güncelle işlemleri için
         public void ekle_sil_güncelle(SqlCommand komut,string sorgu)
         {
             baglanti.Open();
@@ -20,6 +22,7 @@ namespace arac_kiralama
             komut.ExecuteNonQuery();
             baglanti.Close();
         }
+        //sql bağlantı sorgusu listeleme işlemleri için
 
         public DataTable listele(SqlDataAdapter adtr, string sorgu)
         {
@@ -29,7 +32,7 @@ namespace arac_kiralama
             baglanti.Close();
             return tablo;
         }
-
+        //sqldeki satırlarımızı buradaki textboxlar ile bağlıyoruz 
         public void Tc_Ara(TextBox TcAra,TextBox Tc, TextBox Ad, TextBox Soyad, TextBox Telefon, string sorgu)
         {
             baglanti.Open();
@@ -44,6 +47,7 @@ namespace arac_kiralama
             }
             baglanti.Close();
         }
+        //sql bağlantısı ve ücret hesaplama işlemleri
         public void Ucret_Hesapla(ComboBox comboKiraSekli, TextBox ucret, string sorgu)
         {
             baglanti.Open();

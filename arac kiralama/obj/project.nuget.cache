@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "TwqX4MUh52lBdVUdgxEw1DRYTDKGNYQ3rbVD6AuvlUqtxxiPTbTClljFbjQ9wGcySztgQm5WlinksW/n5JeVIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yonca\\Desktop\\BitArtik\\arac kiralama\\arac kiralama.csproj",
+=======
+  "dgSpecHash": "N1YK1v9hIknijl2RQgONwAADj1dUsC74wCuI8XrTyPxj2Vpmc7jtE9615FaaW1vbOVCS1uZgpIBSYzmqWdN8zQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj",
+>>>>>>> 5ac1de596a9eb5a9a7dd04d40fcd2eb08b819325
   "expectedPackageFiles": [
     "C:\\Users\\Yonca\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Yonca\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

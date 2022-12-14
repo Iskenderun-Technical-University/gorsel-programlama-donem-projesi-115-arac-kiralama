@@ -13,12 +13,13 @@ namespace arac_kiralama
 {
     public partial class frmMusterEkle : Form
     {
+        //class ı yeniden adlandırdık
         Arac_Kiralama arac_kiralama = new Arac_Kiralama();
         public frmMusterEkle()
         {
             InitializeComponent();
         }
-
+        //iptal butonu ile formu kapatma işlemi
         private void buttonIptal_Click(object sender, EventArgs e)
         {
             // thisClose;
@@ -33,7 +34,7 @@ namespace arac_kiralama
             }
 
         }
-
+        //textbox içine yazdığımız verileri veri tabanımızdaki satırlara yazıyoruz
         private void buttonEkle_Click(object sender, EventArgs e)
         {
             string cumle = "insert into YMuster(Ad,Soyad,DogumTarih,TC,Adres,Tel,mail) values(@Ad,@Soyad,@DogumTarih,@TC,@Adres,@Tel,@mail)";

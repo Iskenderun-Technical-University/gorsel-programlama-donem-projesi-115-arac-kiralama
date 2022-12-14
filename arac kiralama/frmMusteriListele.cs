@@ -28,7 +28,7 @@ namespace arac_kiralama
         {
             Yenilelistele();
         }
-
+        //sql tablomuzdan veri alıyoruz
         private void Yenilelistele()
         {
             string cümle = "select * from YMuster";
@@ -42,7 +42,7 @@ namespace arac_kiralama
             dataGridView1.Columns[5].HeaderText = "TEL";
             dataGridView1.Columns[6].HeaderText = "MAİL";
         }
-
+        //tcye göre arama yapma kodu
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             string cümle = "select * from YMuster where tc like'&"+textBox1.Text+"%'";
@@ -68,7 +68,7 @@ namespace arac_kiralama
 
             }
         }
-
+        //çıktılar yani müşteri listeleme tablosu
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow satır = dataGridView1.CurrentRow;
@@ -80,7 +80,7 @@ namespace arac_kiralama
             textBoxTel.Text = satır.Cells[5].Value.ToString();
             textBoxMail.Text = satır.Cells[6].Value.ToString();
         }
-
+        //bilgileri güncelleme
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
             string cümle = "update YMuster set Ad=@Ad,Soyad=@Soyad,DogumTarih=@DogumTarih,Adres=@Adres,Tel=@Tel,Mail=@Mail where TC=@TC";
@@ -98,7 +98,7 @@ namespace arac_kiralama
 
 
         }
-
+        //sql veri tabanındaki verileri silme ve boxları boşaltır 
         private void btnSil_Click(object sender, EventArgs e)
         {
             DataGridViewRow satır = dataGridView1.CurrentRow;
@@ -106,7 +106,7 @@ namespace arac_kiralama
             SqlCommand komut2 = new SqlCommand();
             arackiralama.ekle_sil_güncelle(komut2, cumle);
             foreach (Control item in Controls) if (item is TextBox) item.Text = "";
-            //bu üstteki satır isteğe bağlı biraz istersen silebilirsin
+            //bu üstteki satır isteğe bağlı biraz ,istersen silebilirsin
             Yenilelistele();
         }
 

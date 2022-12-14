@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMusteriListele));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.buttonIptal = new System.Windows.Forms.Button();
+            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxTel = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -51,7 +52,6 @@
             this.btnSil = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,14 +82,24 @@
             this.buttonIptal.UseVisualStyleBackColor = true;
             this.buttonIptal.Click += new System.EventHandler(this.buttonIptal_Click);
             // 
+            // ımageList1
+            // 
+            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth24Bit;
+            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.ımageList1.Images.SetKeyName(0, "refresh (1).png");
+            this.ımageList1.Images.SetKeyName(1, "bin.png");
+            this.ımageList1.Images.SetKeyName(2, "cancel.png");
+            this.ımageList1.Images.SetKeyName(3, "gallery.png");
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.Location = new System.Drawing.Point(41, 219);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 20);
+            this.label6.Size = new System.Drawing.Size(96, 20);
             this.label6.TabIndex = 33;
             this.label6.Text = "Telefon No : ";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -105,10 +115,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(77, 182);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 20);
+            this.label4.Size = new System.Drawing.Size(56, 20);
             this.label4.TabIndex = 31;
             this.label4.Text = "Adres :";
             // 
@@ -122,10 +132,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.Location = new System.Drawing.Point(27, 108);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 20);
+            this.label5.Size = new System.Drawing.Size(106, 20);
             this.label5.TabIndex = 29;
             this.label5.Text = "Doğum Tarih :";
             // 
@@ -139,7 +149,7 @@
             // labelSoyad
             // 
             this.labelSoyad.AutoSize = true;
-            this.labelSoyad.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelSoyad.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelSoyad.Location = new System.Drawing.Point(76, 71);
             this.labelSoyad.Name = "labelSoyad";
             this.labelSoyad.Size = new System.Drawing.Size(59, 20);
@@ -156,10 +166,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(72, 145);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 20);
+            this.label3.Size = new System.Drawing.Size(62, 20);
             this.label3.TabIndex = 25;
             this.label3.Text = " TC No :";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -175,10 +185,10 @@
             // 
             this.labelmail.AutoSize = true;
             this.labelmail.BackColor = System.Drawing.Color.Transparent;
-            this.labelmail.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelmail.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelmail.Location = new System.Drawing.Point(65, 256);
             this.labelmail.Name = "labelmail";
-            this.labelmail.Size = new System.Drawing.Size(70, 20);
+            this.labelmail.Size = new System.Drawing.Size(68, 20);
             this.labelmail.TabIndex = 23;
             this.labelmail.Text = "E-posta :";
             // 
@@ -192,10 +202,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(94, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 20);
+            this.label1.Size = new System.Drawing.Size(40, 20);
             this.label1.TabIndex = 21;
             this.label1.Text = "Adi :";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -266,16 +276,6 @@
             this.label2.Text = " TC Ara";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // ımageList1
-            // 
-            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth24Bit;
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
-            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "refresh (1).png");
-            this.ımageList1.Images.SetKeyName(1, "bin.png");
-            this.ımageList1.Images.SetKeyName(2, "cancel.png");
-            this.ımageList1.Images.SetKeyName(3, "gallery.png");
             // 
             // frmMusteriListele
             // 
