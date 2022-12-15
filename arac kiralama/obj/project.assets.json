@@ -1519,19 +1519,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yonca\\.nuget\\packages\\": {}
+    "C:\\Users\\nazifetekin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yonca\\Desktop\\BitArtik\\arac kiralama\\arac kiralama.csproj",
+      "projectUniqueName": "C:\\Users\\nazifetekin\\Source\\Repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj",
       "projectName": "arac kiralama",
-      "projectPath": "C:\\Users\\Yonca\\Desktop\\BitArtik\\arac kiralama\\arac kiralama.csproj",
-      "packagesPath": "C:\\Users\\Yonca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yonca\\Desktop\\BitArtik\\arac kiralama\\obj\\",
+      "projectPath": "C:\\Users\\nazifetekin\\Source\\Repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj",
+      "packagesPath": "C:\\Users\\nazifetekin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nazifetekin\\Source\\Repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Yonca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nazifetekin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1585,7 +1590,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

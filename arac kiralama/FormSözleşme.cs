@@ -45,6 +45,7 @@ namespace arac_kiralama
            
         }
 
+
         private void comboBoxAraçlar_SelectedIndexChanged(object sender, EventArgs e)
         {
             
@@ -52,12 +53,15 @@ namespace arac_kiralama
             arac.CombodanGetir(comboBoxAraclar, textBoxPlaka, textBoxMarka, textBoxModel, textBoxRenk, sorgu2);
         }
         //SelectedItem
+
+        //kira şeklini hesaplama(günlük,aylık,haftalık)
         private void comboBoxKiraSekli_SelectedIndexChanged(object sender, EventArgs e)
         {
             string sorgu2 = "select *from YKiralama where Plaka like '" + comboBoxAraclar.SelectedItem + "'";
             arac.Ucret_Hesapla(comboBoxKiraSekli, textBoxKiraUcreti, sorgu2);
         }
 
+        //arabanın, müsteride kaç gün kaldığını hesaplar
         private void buttonHesapla_Click(object sender, EventArgs e)
         {
             TimeSpan gun = DateTime.Parse(dateDonusTarihi.Text) - DateTime.Parse(dateCikisTarihi.Text);
@@ -84,6 +88,7 @@ namespace arac_kiralama
             textBoxTutar.Text = ";";
         }
 
+        //sql'den aldığımız müşteri bilgilerini sözleşmeye ekler
         private void buttonEkle_Click(object sender, EventArgs e)
         {
             string sorgu2 = "insert into YSozlesme(Tc,Ad,Soyad,Telefon,EhliyetNo,Plaka,Marka,Model,Renk,KiraSekli,KiraUcret,Gun,Tutar,Ctarih,Dtarih) values(@Tc,@Ad,@Soyad,@Telefon,@EhliyetNo,@Plaka,@Marka,@Model,@Renk,@KiraSekli,@KiraUcret,@Gun,@Tutar,@Ctarih,@Dtarih)";
@@ -115,6 +120,7 @@ namespace arac_kiralama
 
         }
 
+        //Tc ara ile müşteri bilgilerini getireceğiz(ad,soyad,tel vs)
         private void textBoxTcAra_TextChanged(object sender, EventArgs e)
         {
            foreach (Control item in groupBoxAracBilgi.Controls) if (item.GetType() == typeof(System.Windows.Forms.TextBox)) item.Text = "";
@@ -124,6 +130,7 @@ namespace arac_kiralama
             arac.Tc_Ara(textBoxTcAra,textBoxTc, textBoxAd, textBoxSoyad, textBoxTelefon, sorgu2);
         }
 
+        //sözleşmedeki müşteri ve araç bilgilerini güncelleme
         private void buttonGuncelle_Click(object sender, EventArgs e)
         {
             string sorgu2 = "update YSozlesme set Tc=@Tc,Ad=@Ad,Soyad=@Soyad,Telefon=@Telefon,EhliyetNo=@EhliyetNo,Marka=@Marka,Model=@Model,Renk=@Renk,KiraSekli=@KiraSekli,KiraUcret=@KiraUcret,Gun=@Gun,Tutar=@Tutar,Ctarih=@Ctarih,Dtarih=@Dtarih where Plaka=@Plaka";
@@ -153,6 +160,7 @@ namespace arac_kiralama
             MessageBox.Show("Sozlesme guncellendi");
         }
 
+        //bilgileri textlere getiriyoruz
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow satır = dataGridView1.CurrentRow;
@@ -174,6 +182,7 @@ namespace arac_kiralama
 
         }
 
+        //müşterinin erken veya geç getirme durumuna göre gün farkını ve tutarını hesaplama
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow satir = dataGridView1.CurrentRow;
