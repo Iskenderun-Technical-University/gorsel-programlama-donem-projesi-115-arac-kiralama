@@ -237,7 +237,7 @@
             // textBoxKm
             // 
             this.textBoxKm.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxKm.Location = new System.Drawing.Point(117, 232);
+            this.textBoxKm.Location = new System.Drawing.Point(509, 32);
             this.textBoxKm.Name = "textBoxKm";
             this.textBoxKm.Size = new System.Drawing.Size(201, 30);
             this.textBoxKm.TabIndex = 21;
@@ -246,7 +246,7 @@
             // textBoxRenk
             // 
             this.textBoxRenk.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxRenk.Location = new System.Drawing.Point(509, 33);
+            this.textBoxRenk.Location = new System.Drawing.Point(115, 224);
             this.textBoxRenk.Name = "textBoxRenk";
             this.textBoxRenk.Size = new System.Drawing.Size(201, 30);
             this.textBoxRenk.TabIndex = 20;

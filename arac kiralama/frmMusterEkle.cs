@@ -37,7 +37,7 @@ namespace arac_kiralama
         //textbox içine yazdığımız verileri veri tabanımızdaki satırlara yazıyoruz
         private void buttonEkle_Click(object sender, EventArgs e)
         {
-            string cumle = "insert into YMuster(Ad,Soyad,DogumTarih,TC,Adres,Tel,mail) values(@Ad,@Soyad,@DogumTarih,@TC,@Adres,@Tel,@mail)";
+            string cumle = "insert into YMuster(Ad,Soyad,DogumTarih,TC,Adres,Tel,mail,ehliyetNo) values(@Ad,@Soyad,@DogumTarih,@TC,@Adres,@Tel,@mail,@ehliyetNo)";
             SqlCommand komut2 = new SqlCommand();
             komut2.Parameters.AddWithValue("@Ad",textBoxAd.Text);
             komut2.Parameters.AddWithValue("@Soyad", textBoxSoyad.Text);
@@ -46,6 +46,7 @@ namespace arac_kiralama
             komut2.Parameters.AddWithValue("@Adres",textBoxAdres.Text);
             komut2.Parameters.AddWithValue("@Tel", textBoxTel.Text);
             komut2.Parameters.AddWithValue("@mail", textBoxMail.Text);
+            komut2.Parameters.AddWithValue("@ehliyetNo", textBoxEhliyetNo.Text);
             arac_kiralama.ekle_sil_güncelle(komut2,cumle);
             foreach (Control item in Controls) if (item is TextBox) item.Text = "";
         }

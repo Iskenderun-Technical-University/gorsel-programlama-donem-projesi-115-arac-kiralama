@@ -13,8 +13,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = arac_kiralama
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Yonca\Desktop\BitArtik\arac kiralama\
-=======
-build_property.ProjectDir = C:\Users\busek\source\repos\gorsel-programlama-donem-projesi-115-arac-kiralama\arac kiralama\
->>>>>>> 5ac1de596a9eb5a9a7dd04d40fcd2eb08b819325

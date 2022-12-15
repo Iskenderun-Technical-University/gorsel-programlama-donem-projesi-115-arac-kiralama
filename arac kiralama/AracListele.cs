@@ -32,13 +32,13 @@ namespace arac_kiralama
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow satir = dataGridView1.CurrentRow;
-            textBoxPlaka.Text = satir.Cells["plaka"].Value.ToString();
-            comboBoxMarka.Text = satir.Cells["marka"].Value.ToString();
-            comboBoxModel.Text = satir.Cells["model"].Value.ToString();
-            textBoxKm.Text = satir.Cells["kilometre"].Value.ToString();
-            textBoxRenk.Text = satir.Cells["renk"].Value.ToString();
-            comboBoxYakit.Text = satir.Cells["yakıt"].Value.ToString();
-            textBoxKiralamaUcret.Text = satir.Cells["ücret"].Value.ToString();
+            textBoxPlaka.Text = satir.Cells["Plaka"].Value.ToString();
+            comboBoxMarka.Text = satir.Cells["Marka"].Value.ToString();
+            comboBoxModel.Text = satir.Cells["Model"].Value.ToString();
+            textBoxKm.Text = satir.Cells["KM"].Value.ToString();
+            textBoxRenk.Text = satir.Cells["Renk"].Value.ToString();
+            comboBoxYakit.Text = satir.Cells["Yakit"].Value.ToString();
+            textBoxKiralamaUcret.Text = satir.Cells["KiraUcreti"].Value.ToString();
 
         }
 
@@ -92,7 +92,8 @@ namespace arac_kiralama
             string cumle = "delete from YKiralama where Plaka='" + satir.Cells["Plaka"].Value.ToString() + "'";
             SqlCommand komut2 = new SqlCommand();
                 arac_Kiralama.ekle_sil_güncelle(komut2, cumle);
-            YenileAracListele();
+                foreach (Control item in Controls) if (item is TextBox) item.Text = "";
+                YenileAracListele();
             }
         }
 

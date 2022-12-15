@@ -41,11 +41,12 @@ namespace arac_kiralama
             dataGridView1.Columns[4].HeaderText = "ADRES";
             dataGridView1.Columns[5].HeaderText = "TEL";
             dataGridView1.Columns[6].HeaderText = "MAİL";
+            dataGridView1.Columns[7].HeaderText = "EHLİYETNO";
         }
         //tcye göre arama yapma kodu
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string cümle = "select * from YMuster where tc like'&"+textBox1.Text+"%'";
+            string cümle = "select * from YMuster where tc like'%"+textBox1.Text+"%'";
             SqlDataAdapter adtr2 = new SqlDataAdapter();
             dataGridView1.DataSource = arackiralama.listele(adtr2, cümle);
         }
@@ -79,11 +80,12 @@ namespace arac_kiralama
             textBoxAdres.Text = satır.Cells[4].Value.ToString();
             textBoxTel.Text = satır.Cells[5].Value.ToString();
             textBoxMail.Text = satır.Cells[6].Value.ToString();
+            textBoxEhliyetNo.Text = satır.Cells[7].Value.ToString();
         }
         //bilgileri güncelleme
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
-            string cümle = "update YMuster set Ad=@Ad,Soyad=@Soyad,DogumTarih=@DogumTarih,Adres=@Adres,Tel=@Tel,Mail=@Mail where TC=@TC";
+            string cümle = "update YMuster set Ad=@Ad,Soyad=@Soyad,DogumTarih=@DogumTarih,Adres=@Adres,Tel=@Tel,Mail=@Mail,ehliyetNo=@ehliyetNo where TC=@TC";
             SqlCommand komut2 = new SqlCommand();
             komut2.Parameters.AddWithValue("@Ad", textBoxAd.Text);
             komut2.Parameters.AddWithValue("@Soyad", textBoxSoyad.Text);
@@ -92,6 +94,8 @@ namespace arac_kiralama
             komut2.Parameters.AddWithValue("@Adres", textBoxAdres.Text);
             komut2.Parameters.AddWithValue("@Tel", textBoxTel.Text);
             komut2.Parameters.AddWithValue("@mail", textBoxMail.Text);
+            komut2.Parameters.AddWithValue("@ehliyetNo", textBoxEhliyetNo.Text);
+
             arackiralama.ekle_sil_güncelle(komut2, cümle);
             foreach (Control item in Controls) if (item is TextBox) item.Text = "";
             Yenilelistele();

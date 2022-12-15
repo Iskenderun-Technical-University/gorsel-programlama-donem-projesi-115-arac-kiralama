@@ -62,5 +62,7 @@ namespace arac_kiralama
             FormKiralama kiralama = new FormKiralama();
             kiralama.ShowDialog();
         }
+
+   
     }
 }

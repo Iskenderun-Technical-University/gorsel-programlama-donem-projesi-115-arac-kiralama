@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\Yonca\\Desktop\\BitArtik\\arac kiralama\\arac kiralama.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\Users\\Yonca\\Desktop\\BitArtik\\arac kiralama\\arac kiralama.csproj",
         "packagesPath": "C:\\Users\\Yonca\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Yonca\\Desktop\\BitArtik\\arac kiralama\\obj\\",
-=======
-    "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj",
-        "projectName": "arac kiralama",
-        "projectPath": "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\arac kiralama.csproj",
-        "packagesPath": "C:\\Users\\busek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\busek\\source\\repos\\gorsel-programlama-donem-projesi-115-arac-kiralama\\arac kiralama\\obj\\",
->>>>>>> 5ac1de596a9eb5a9a7dd04d40fcd2eb08b819325
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yonca\\AppData\\Roaming\\NuGet\\NuGet.Config",

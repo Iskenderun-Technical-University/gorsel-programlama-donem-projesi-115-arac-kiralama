@@ -31,12 +31,12 @@ namespace arac_kiralama
             dataGridView1.DataSource = arac.listele(adtr2, sorgu3);
 
 
-            //comboBoxAraclar.DisplayMember = "Name";
-            //comboBoxAraclar.ValueMember = "Name";
-            //string sorgu4 = "select Plaka from YKiralama";
-            //SqlDataAdapter adtr3 = new SqlDataAdapter();
-            //comboBoxAraclar.DataSource = arac.listele(adtr3, sorgu4);
 
+            string sorgu4 = "select plaka from ykiralama";
+            SqlDataAdapter adtr3 = new SqlDataAdapter();
+            comboBoxAraclar.DataSource = arac.listele(adtr3, sorgu4);
+            comboBoxAraclar.DisplayMember = "plaka";
+            //comboBoxAraclar.ValueMember = "name";
 
         }
 
@@ -47,10 +47,11 @@ namespace arac_kiralama
 
         private void comboBoxAraçlar_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string sorgu2 = "select *from YKiralama where Plaka like '" + comboBoxAraclar.SelectedItem + "'";
+            
+            string sorgu2 = "select *from YKiralama where Plaka like '" + comboBoxAraclar.Text + "'";
             arac.CombodanGetir(comboBoxAraclar, textBoxPlaka, textBoxMarka, textBoxModel, textBoxRenk, sorgu2);
         }
-
+        //SelectedItem
         private void comboBoxKiraSekli_SelectedIndexChanged(object sender, EventArgs e)
         {
             string sorgu2 = "select *from YKiralama where Plaka like '" + comboBoxAraclar.SelectedItem + "'";
@@ -175,11 +176,11 @@ namespace arac_kiralama
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            DataGridViewRow satır = dataGridView1.CurrentRow;
+            DataGridViewRow satir = dataGridView1.CurrentRow;
             //Gun farkini Hesapla
             DateTime bugun = DateTime.Parse(DateTime.Now.ToShortDateString());
-            DateTime donus = DateTime.Parse(satır.Cells["Dtarih"].Value.ToString());
-            int ucret = int.Parse(satır.Cells["KiraUcret"].Value.ToString());
+            DateTime donus = DateTime.Parse(satir.Cells["Dtarih"].Value.ToString());
+            int ucret = int.Parse(satir.Cells["KiraUcret"].Value.ToString());
             TimeSpan gunfarki = bugun - donus;
             int _gunfarki = gunfarki.Days;
             int ucretfarki;

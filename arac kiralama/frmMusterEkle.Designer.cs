@@ -49,6 +49,8 @@
             this.textBoxTel = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.buttonIptal = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBoxEhliyetNo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // labelKm
@@ -57,7 +59,7 @@
             this.labelKm.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.labelKm.Location = new System.Drawing.Point(26, 18);
             this.labelKm.Name = "labelKm";
-            this.labelKm.Size = new System.Drawing.Size(121, 21);
+            this.labelKm.Size = new System.Drawing.Size(151, 28);
             this.labelKm.TabIndex = 0;
             this.labelKm.Text = "Kimlik Bilgileri";
             // 
@@ -67,7 +69,7 @@
             this.buttonEkle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonEkle.ImageIndex = 1;
             this.buttonEkle.ImageList = this.ımageList1;
-            this.buttonEkle.Location = new System.Drawing.Point(71, 396);
+            this.buttonEkle.Location = new System.Drawing.Point(71, 446);
             this.buttonEkle.Name = "buttonEkle";
             this.buttonEkle.Size = new System.Drawing.Size(100, 47);
             this.buttonEkle.TabIndex = 1;
@@ -88,7 +90,7 @@
             // 
             this.textBoxAd.Location = new System.Drawing.Point(149, 92);
             this.textBoxAd.Name = "textBoxAd";
-            this.textBoxAd.Size = new System.Drawing.Size(217, 23);
+            this.textBoxAd.Size = new System.Drawing.Size(217, 27);
             this.textBoxAd.TabIndex = 2;
             // 
             // label1
@@ -97,7 +99,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(79, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 20);
+            this.label1.Size = new System.Drawing.Size(51, 25);
             this.label1.TabIndex = 3;
             this.label1.Text = "Adi :";
             // 
@@ -105,17 +107,17 @@
             // 
             this.labelmail.AutoSize = true;
             this.labelmail.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelmail.Location = new System.Drawing.Point(50, 262);
+            this.labelmail.Location = new System.Drawing.Point(50, 312);
             this.labelmail.Name = "labelmail";
-            this.labelmail.Size = new System.Drawing.Size(68, 20);
+            this.labelmail.Size = new System.Drawing.Size(87, 25);
             this.labelmail.TabIndex = 5;
             this.labelmail.Text = "E-posta :";
             // 
             // textBoxMail
             // 
-            this.textBoxMail.Location = new System.Drawing.Point(149, 295);
+            this.textBoxMail.Location = new System.Drawing.Point(149, 345);
             this.textBoxMail.Name = "textBoxMail";
-            this.textBoxMail.Size = new System.Drawing.Size(217, 23);
+            this.textBoxMail.Size = new System.Drawing.Size(217, 27);
             this.textBoxMail.TabIndex = 4;
             // 
             // label3
@@ -124,7 +126,7 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(57, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 20);
+            this.label3.Size = new System.Drawing.Size(79, 25);
             this.label3.TabIndex = 7;
             this.label3.Text = " TC No :";
             // 
@@ -132,7 +134,7 @@
             // 
             this.textBoxTc.Location = new System.Drawing.Point(149, 63);
             this.textBoxTc.Name = "textBoxTc";
-            this.textBoxTc.Size = new System.Drawing.Size(217, 23);
+            this.textBoxTc.Size = new System.Drawing.Size(217, 27);
             this.textBoxTc.TabIndex = 6;
             // 
             // labelSoyad
@@ -141,7 +143,7 @@
             this.labelSoyad.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelSoyad.Location = new System.Drawing.Point(61, 128);
             this.labelSoyad.Name = "labelSoyad";
-            this.labelSoyad.Size = new System.Drawing.Size(59, 20);
+            this.labelSoyad.Size = new System.Drawing.Size(74, 25);
             this.labelSoyad.TabIndex = 9;
             this.labelSoyad.Text = "Soyad :";
             // 
@@ -149,7 +151,7 @@
             // 
             this.textBoxSoyad.Location = new System.Drawing.Point(149, 125);
             this.textBoxSoyad.Name = "textBoxSoyad";
-            this.textBoxSoyad.Size = new System.Drawing.Size(217, 23);
+            this.textBoxSoyad.Size = new System.Drawing.Size(217, 27);
             this.textBoxSoyad.TabIndex = 8;
             // 
             // label5
@@ -158,7 +160,7 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.Location = new System.Drawing.Point(12, 161);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(106, 20);
+            this.label5.Size = new System.Drawing.Size(132, 25);
             this.label5.TabIndex = 11;
             this.label5.Text = "Doğum Tarih :";
             // 
@@ -166,22 +168,22 @@
             // 
             this.textBoxDogum.Location = new System.Drawing.Point(149, 158);
             this.textBoxDogum.Name = "textBoxDogum";
-            this.textBoxDogum.Size = new System.Drawing.Size(217, 23);
+            this.textBoxDogum.Size = new System.Drawing.Size(217, 27);
             this.textBoxDogum.TabIndex = 10;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(62, 340);
+            this.label4.Location = new System.Drawing.Point(62, 390);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 20);
+            this.label4.Size = new System.Drawing.Size(71, 25);
             this.label4.TabIndex = 13;
             this.label4.Text = "Adres :";
             // 
             // textBoxAdres
             // 
-            this.textBoxAdres.Location = new System.Drawing.Point(149, 324);
+            this.textBoxAdres.Location = new System.Drawing.Point(149, 374);
             this.textBoxAdres.Multiline = true;
             this.textBoxAdres.Name = "textBoxAdres";
             this.textBoxAdres.Size = new System.Drawing.Size(217, 54);
@@ -191,26 +193,26 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(26, 298);
+            this.label6.Location = new System.Drawing.Point(26, 348);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 20);
+            this.label6.Size = new System.Drawing.Size(120, 25);
             this.label6.TabIndex = 15;
             this.label6.Text = "Telefon No : ";
             // 
             // textBoxTel
             // 
-            this.textBoxTel.Location = new System.Drawing.Point(149, 259);
+            this.textBoxTel.Location = new System.Drawing.Point(149, 309);
             this.textBoxTel.Name = "textBoxTel";
-            this.textBoxTel.Size = new System.Drawing.Size(217, 23);
+            this.textBoxTel.Size = new System.Drawing.Size(217, 27);
             this.textBoxTel.TabIndex = 14;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(26, 212);
+            this.label7.Location = new System.Drawing.Point(26, 262);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(128, 21);
+            this.label7.Size = new System.Drawing.Size(160, 28);
             this.label7.TabIndex = 16;
             this.label7.Text = "İletişim Bilgileri";
             // 
@@ -220,7 +222,7 @@
             this.buttonIptal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonIptal.ImageIndex = 0;
             this.buttonIptal.ImageList = this.ımageList1;
-            this.buttonIptal.Location = new System.Drawing.Point(227, 396);
+            this.buttonIptal.Location = new System.Drawing.Point(227, 446);
             this.buttonIptal.Name = "buttonIptal";
             this.buttonIptal.Size = new System.Drawing.Size(100, 47);
             this.buttonIptal.TabIndex = 17;
@@ -229,12 +231,31 @@
             this.buttonIptal.UseVisualStyleBackColor = true;
             this.buttonIptal.Click += new System.EventHandler(this.buttonIptal_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(24, 205);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(111, 25);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Ehliyet No :";
+            // 
+            // textBoxEhliyetNo
+            // 
+            this.textBoxEhliyetNo.Location = new System.Drawing.Point(149, 203);
+            this.textBoxEhliyetNo.Name = "textBoxEhliyetNo";
+            this.textBoxEhliyetNo.Size = new System.Drawing.Size(217, 27);
+            this.textBoxEhliyetNo.TabIndex = 18;
+            // 
             // frmMusterEkle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(386, 455);
+            this.ClientSize = new System.Drawing.Size(391, 510);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBoxEhliyetNo);
             this.Controls.Add(this.buttonIptal);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -285,5 +306,7 @@
         private TextBox textBoxTel;
         private Label label7;
         private Button buttonIptal;
+        private Label label2;
+        private TextBox textBoxEhliyetNo;
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace arac_kiralama
 {
     internal class Arac_Kiralama
-    {
+    {  
         //ilk olarak sql bağlantımızı kuruyoruz
         SqlConnection baglanti = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=YOaracKiralama;Integrated Security=True");
         DataTable tablo;
@@ -62,11 +62,11 @@ namespace arac_kiralama
             }
             baglanti.Close();
         }
-
-        public void CombodanGetir(ComboBox Araçlar, TextBox Plaka, TextBox Marka, TextBox Model, TextBox Renk, string sorgu)
+        
+        public void CombodanGetir(ComboBox Araclar, TextBox Plaka, TextBox Marka, TextBox Model, TextBox Renk, string sorgu)
         {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand(sorgu, baglanti);
+            SqlCommand komut = new SqlCommand(sorgu,baglanti);
             SqlDataReader read = komut.ExecuteReader();
             while (read.Read())
             {

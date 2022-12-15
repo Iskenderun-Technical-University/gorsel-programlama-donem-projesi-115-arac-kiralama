@@ -51,10 +51,9 @@
             this.buttonMusteriListe2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonMusteriListe2.ImageIndex = 0;
             this.buttonMusteriListe2.ImageList = this.ımageList1;
-            this.buttonMusteriListe2.Location = new System.Drawing.Point(94, 16);
-            this.buttonMusteriListe2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonMusteriListe2.Location = new System.Drawing.Point(107, 21);
             this.buttonMusteriListe2.Name = "buttonMusteriListe2";
-            this.buttonMusteriListe2.Size = new System.Drawing.Size(94, 55);
+            this.buttonMusteriListe2.Size = new System.Drawing.Size(107, 73);
             this.buttonMusteriListe2.TabIndex = 1;
             this.buttonMusteriListe2.Text = "Müşteri Listele";
             this.buttonMusteriListe2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -83,10 +82,9 @@
             this.buttonAracListe3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAracListe3.ImageIndex = 4;
             this.buttonAracListe3.ImageList = this.ımageList1;
-            this.buttonAracListe3.Location = new System.Drawing.Point(287, 16);
-            this.buttonAracListe3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonAracListe3.Location = new System.Drawing.Point(328, 21);
             this.buttonAracListe3.Name = "buttonAracListe3";
-            this.buttonAracListe3.Size = new System.Drawing.Size(90, 55);
+            this.buttonAracListe3.Size = new System.Drawing.Size(103, 73);
             this.buttonAracListe3.TabIndex = 2;
             this.buttonAracListe3.Text = "Araç Listeleme";
             this.buttonAracListe3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -101,11 +99,10 @@
             this.buttonCikis4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonCikis4.ImageIndex = 3;
             this.buttonCikis4.ImageList = this.ımageList1;
-            this.buttonCikis4.Location = new System.Drawing.Point(576, 16);
-            this.buttonCikis4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonCikis4.Location = new System.Drawing.Point(658, 21);
             this.buttonCikis4.Name = "buttonCikis4";
             this.buttonCikis4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.buttonCikis4.Size = new System.Drawing.Size(96, 56);
+            this.buttonCikis4.Size = new System.Drawing.Size(110, 75);
             this.buttonCikis4.TabIndex = 3;
             this.buttonCikis4.Text = "Çikiş";
             this.buttonCikis4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -119,10 +116,9 @@
             this.buttonAracKayit5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonAracKayit5.ImageIndex = 5;
             this.buttonAracKayit5.ImageList = this.ımageList1;
-            this.buttonAracKayit5.Location = new System.Drawing.Point(194, 16);
-            this.buttonAracKayit5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonAracKayit5.Location = new System.Drawing.Point(222, 21);
             this.buttonAracKayit5.Name = "buttonAracKayit5";
-            this.buttonAracKayit5.Size = new System.Drawing.Size(88, 55);
+            this.buttonAracKayit5.Size = new System.Drawing.Size(101, 73);
             this.buttonAracKayit5.TabIndex = 4;
             this.buttonAracKayit5.Text = "Araç Kayit";
             this.buttonAracKayit5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -136,10 +132,9 @@
             this.buttonSozlesme6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonSozlesme6.ImageIndex = 6;
             this.buttonSozlesme6.ImageList = this.ımageList1;
-            this.buttonSozlesme6.Location = new System.Drawing.Point(382, 16);
-            this.buttonSozlesme6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonSozlesme6.Location = new System.Drawing.Point(437, 21);
             this.buttonSozlesme6.Name = "buttonSozlesme6";
-            this.buttonSozlesme6.Size = new System.Drawing.Size(88, 55);
+            this.buttonSozlesme6.Size = new System.Drawing.Size(101, 73);
             this.buttonSozlesme6.TabIndex = 5;
             this.buttonSozlesme6.Text = "Sözleşme";
             this.buttonSozlesme6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -153,10 +148,9 @@
             this.buttonKiralama7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonKiralama7.ImageIndex = 7;
             this.buttonKiralama7.ImageList = this.ımageList1;
-            this.buttonKiralama7.Location = new System.Drawing.Point(476, 16);
-            this.buttonKiralama7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonKiralama7.Location = new System.Drawing.Point(544, 21);
             this.buttonKiralama7.Name = "buttonKiralama7";
-            this.buttonKiralama7.Size = new System.Drawing.Size(94, 56);
+            this.buttonKiralama7.Size = new System.Drawing.Size(107, 75);
             this.buttonKiralama7.TabIndex = 6;
             this.buttonKiralama7.Text = "Kiralama";
             this.buttonKiralama7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -169,12 +163,12 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(676, 381);
+            this.pictureBox1.Size = new System.Drawing.Size(773, 508);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
+
             // 
             // panel1
             // 
@@ -188,9 +182,8 @@
             this.panel1.Controls.Add(this.buttonCikis4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(676, 82);
+            this.panel1.Size = new System.Drawing.Size(773, 109);
             this.panel1.TabIndex = 8;
             // 
             // buttonKayit1
@@ -200,10 +193,9 @@
             this.buttonKayit1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonKayit1.ImageIndex = 2;
             this.buttonKayit1.ImageList = this.ımageList1;
-            this.buttonKayit1.Location = new System.Drawing.Point(-1, 17);
-            this.buttonKayit1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonKayit1.Location = new System.Drawing.Point(-1, 23);
             this.buttonKayit1.Name = "buttonKayit1";
-            this.buttonKayit1.Size = new System.Drawing.Size(89, 55);
+            this.buttonKayit1.Size = new System.Drawing.Size(102, 73);
             this.buttonKayit1.TabIndex = 0;
             this.buttonKayit1.Text = "Müşteri Kayıt";
             this.buttonKayit1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -212,14 +204,13 @@
             // 
             // AnaSayfa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(676, 381);
+            this.ClientSize = new System.Drawing.Size(773, 508);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AnaSayfa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ana Sayfa";
